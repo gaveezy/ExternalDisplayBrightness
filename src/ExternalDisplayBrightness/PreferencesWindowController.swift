@@ -6,9 +6,6 @@ class PreferencesWindowController: NSWindowController, NSWindowDelegate {
 	@IBOutlet private weak var increaseBrightnessKey: NSPopUpButton?
 	@IBOutlet private weak var readBrightnessWarningPopover: NSPopover?
 	
-	// needed to access the singleton from Interface Builder
-	@objc dynamic weak var sharedLoginItemManager = LoginItemManager.shared
-	
 	@objc dynamic var showCaution: Bool = false
 	@objc dynamic var isPrivileged: Bool {
 		return AXIsProcessTrusted()
@@ -37,7 +34,7 @@ class PreferencesWindowController: NSWindowController, NSWindowDelegate {
 	}
 	
 	func windowDidUpdate(_: Notification) {
-		LoginItemManager.shared.updateEnabled()
+    
 	}
 	
 	@IBAction private func updateShowCaution(_: Any? = nil) {
