@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,18 +18,18 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
-            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="407" height="349"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+            <view key="contentView" wantsLayer="YES" misplaced="YES" id="EiT-Mj-1SZ">
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="250" verticalStackHuggingPriority="250" verticalHuggingPriority="750" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Wl-1l-qFV">
-                        <rect key="frame" x="10" y="10" width="387" height="329"/>
+                        <rect key="frame" x="10" y="10" width="393" height="332"/>
                         <subviews>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="72" translatesAutoresizingMaskIntoConstraints="NO" id="WUW-lQ-1Xe">
-                                <rect key="frame" x="0.0" y="257" width="387" height="72"/>
+                                <rect key="frame" x="0.0" y="260" width="393" height="72"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-1Z-hol" userLabel="Decrease key label">
-                                        <rect key="frame" x="8" y="44" width="154" height="17"/>
+                                        <rect key="frame" x="8" y="45" width="154" height="16"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Decrease brightness key" id="7a7-LC-VKL">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -37,7 +37,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CfJ-UN-Ajd" userLabel="Increase key label">
-                                        <rect key="frame" x="14" y="13" width="148" height="17"/>
+                                        <rect key="frame" x="14" y="14" width="148" height="16"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="Increase brightness key" id="013-kU-aOh">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -45,7 +45,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <popUpButton verticalHuggingPriority="750" placeholderIntrinsicWidth="88" placeholderIntrinsicHeight="21" translatesAutoresizingMaskIntoConstraints="NO" id="LaL-eE-x2v" userLabel="Decrease brightness key">
-                                        <rect key="frame" x="166" y="38" width="93" height="26"/>
+                                        <rect key="frame" x="165" y="37" width="95" height="26"/>
                                         <popUpButtonCell key="cell" type="push" title="F1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="STB-2p-H8Y" id="B5j-bx-Rfo">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
@@ -82,7 +82,7 @@
                                         </connections>
                                     </popUpButton>
                                     <popUpButton verticalHuggingPriority="750" placeholderIntrinsicWidth="88" placeholderIntrinsicHeight="21" translatesAutoresizingMaskIntoConstraints="NO" id="W9C-mR-q85" userLabel="Increase brightness key">
-                                        <rect key="frame" x="166" y="7" width="93" height="26"/>
+                                        <rect key="frame" x="165" y="6" width="95" height="26"/>
                                         <popUpButtonCell key="cell" type="push" title="F1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="mxb-28-Oq7" id="FDP-v7-kQM">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
@@ -150,10 +150,10 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="hYE-q9-qIr">
-                                <rect key="frame" x="0.0" y="256" width="387" height="1"/>
+                                <rect key="frame" x="0.0" y="259" width="393" height="1"/>
                                 <subviews>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="5m2-gt-ock">
-                                        <rect key="frame" x="0.0" y="-2" width="387" height="5"/>
+                                        <rect key="frame" x="0.0" y="-2" width="393" height="5"/>
                                     </box>
                                 </subviews>
                                 <constraints>
@@ -164,10 +164,10 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="58" translatesAutoresizingMaskIntoConstraints="NO" id="AGH-ae-Htb">
-                                <rect key="frame" x="0.0" y="198" width="387" height="58"/>
+                                <rect key="frame" x="0.0" y="197" width="393" height="62"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6Fy-CI-9hG">
-                                        <rect key="frame" x="8" y="32" width="274" height="18"/>
+                                        <rect key="frame" x="8" y="35" width="278" height="18"/>
                                         <buttonCell key="cell" type="check" title="Change brightness on all displays at once" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="v3Z-PG-R0n">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -177,7 +177,7 @@
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J0J-D3-Kyc">
-                                        <rect key="frame" x="31" y="8" width="274" height="18"/>
+                                        <rect key="frame" x="31" y="9" width="278" height="18"/>
                                         <buttonCell key="cell" type="check" title="Require Command modifier to be pressed" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="1PN-ah-rk9">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -199,10 +199,10 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="IeK-2T-3RU">
-                                <rect key="frame" x="0.0" y="197" width="387" height="1"/>
+                                <rect key="frame" x="0.0" y="196" width="393" height="1"/>
                                 <subviews>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="xmX-1Y-fEF">
-                                        <rect key="frame" x="0.0" y="-2" width="387" height="5"/>
+                                        <rect key="frame" x="0.0" y="-2" width="393" height="5"/>
                                     </box>
                                 </subviews>
                                 <constraints>
@@ -213,10 +213,10 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="58" translatesAutoresizingMaskIntoConstraints="NO" id="a1q-I9-S67">
-                                <rect key="frame" x="0.0" y="139" width="387" height="58"/>
+                                <rect key="frame" x="0.0" y="136" width="393" height="60"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xvR-Nm-XLy">
-                                        <rect key="frame" x="8" y="32" width="371" height="18"/>
+                                        <rect key="frame" x="8" y="33" width="375" height="18"/>
                                         <buttonCell key="cell" type="check" title="Read initial brightness from the display before adjusting it" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Uk0-Ph-6gl">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -234,7 +234,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <button horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HWR-kI-VXl">
-                                        <rect key="frame" x="311" y="4" width="25" height="25"/>
+                                        <rect key="frame" x="310" y="3" width="25" height="25"/>
                                         <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nce-3T-xLG">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
@@ -257,10 +257,10 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="LA7-Gm-v88">
-                                <rect key="frame" x="0.0" y="138" width="387" height="1"/>
+                                <rect key="frame" x="0.0" y="135" width="393" height="1"/>
                                 <subviews>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="4tz-Cj-exW">
-                                        <rect key="frame" x="0.0" y="-2" width="387" height="5"/>
+                                        <rect key="frame" x="0.0" y="-2" width="393" height="5"/>
                                     </box>
                                 </subviews>
                                 <constraints>
@@ -271,20 +271,20 @@
                                 </constraints>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="52" translatesAutoresizingMaskIntoConstraints="NO" id="Cy4-h0-1pa">
-                                <rect key="frame" x="0.0" y="66" width="387" height="72"/>
+                                <rect key="frame" x="0.0" y="67" width="393" height="68"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="250" verticalStackHuggingPriority="250" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dzp-TV-ZYz">
-                                        <rect key="frame" x="16" y="10" width="355" height="52"/>
+                                        <rect key="frame" x="10" y="10" width="373" height="48"/>
                                         <subviews>
                                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="32" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="2Q1-7D-Plu" userLabel="Caution for accessibility">
-                                                <rect key="frame" x="0.0" y="10" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="8" width="32" height="32"/>
                                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSCaution" id="IBW-EY-877"/>
                                                 <connections>
                                                     <binding destination="-2" name="hidden" keyPath="self.isPrivileged" id="N0o-Wf-oAj"/>
                                                 </connections>
                                             </imageView>
                                             <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="XmL-vb-gIk">
-                                                <rect key="frame" x="38" y="1" width="319" height="51"/>
+                                                <rect key="frame" x="38" y="0.0" width="337" height="48"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="750" constant="261" id="Apg-91-Clz"/>
                                                 </constraints>
@@ -324,10 +324,10 @@
                                 </connections>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ead-Ls-FNf">
-                                <rect key="frame" x="0.0" y="65" width="387" height="1"/>
+                                <rect key="frame" x="0.0" y="66" width="393" height="1"/>
                                 <subviews>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="wZY-s8-iLM">
-                                        <rect key="frame" x="0.0" y="-2" width="387" height="5"/>
+                                        <rect key="frame" x="0.0" y="-2" width="393" height="5"/>
                                     </box>
                                 </subviews>
                                 <constraints>
@@ -341,27 +341,20 @@
                                 </connections>
                             </customView>
                             <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="65" translatesAutoresizingMaskIntoConstraints="NO" id="qCV-3e-Gbr">
-                                <rect key="frame" x="0.0" y="0.0" width="387" height="65"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u7A-xc-Gc3">
-                                        <rect key="frame" x="264" y="39" width="115" height="18"/>
+                                        <rect key="frame" x="264" y="39" width="119" height="18"/>
                                         <buttonCell key="cell" type="check" title="Launch at login" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="NaB-fc-Z5a">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.sharedLoginItemManager.isEnabled" id="Gya-De-xmO">
-                                                <dictionary key="options">
-                                                    <string key="NSValueTransformerName">LoginItemCheckboxTransformer</string>
-                                                </dictionary>
-                                            </binding>
-                                        </connections>
                                     </button>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="12" horizontalStackHuggingPriority="250" verticalStackHuggingPriority="250" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MUk-Wl-WpL">
-                                        <rect key="frame" x="227" y="10" width="150" height="21"/>
+                                        <rect key="frame" x="249" y="10" width="134" height="20"/>
                                         <subviews>
                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eaK-wf-EFc">
-                                                <rect key="frame" x="-6" y="-7" width="96" height="32"/>
+                                                <rect key="frame" x="-7" y="-7" width="90" height="32"/>
                                                 <buttonCell key="cell" type="push" title="Relaunch" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="L5g-cx-QmH">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
@@ -372,7 +365,7 @@
                                                 </connections>
                                             </button>
                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8tD-zd-kjh">
-                                                <rect key="frame" x="90" y="-7" width="66" height="32"/>
+                                                <rect key="frame" x="81" y="-7" width="60" height="32"/>
                                                 <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PJw-6u-qDj">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
@@ -469,11 +462,11 @@
             </connections>
         </popover>
         <customView id="uI3-PV-VoR">
-            <rect key="frame" x="0.0" y="0.0" width="393" height="105"/>
+            <rect key="frame" x="0.0" y="5" width="393" height="100"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="G3G-5K-dNF">
-                    <rect key="frame" x="8" y="10" width="377" height="85"/>
+                    <rect key="frame" x="8" y="10" width="377" height="80"/>
                     <textFieldCell key="cell" selectable="YES" id="wuD-xr-hK3">
                         <font key="font" usesAppearanceFont="YES"/>
                         <string key="title">Unfortunately, some displays do not support reading their brightness over DDC/CI, and some Macs might freeze when attempting to read it from such display. Most Mac models should be fine, but try this at your own risk. More info can be found on the website of the app.</string>
